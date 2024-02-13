@@ -12,8 +12,7 @@ function Form({ onClose }) {
     // }
     return (
         <>
-       
-            <div
+                 <div
                 // ref={modalRef}
                 // onClick={closeModal}
                 className='bg-[#78866b] pt-11'
