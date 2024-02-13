@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 // import './App.css'
 // import Timer from './pages/Timer'
 import SlideForm from './pages/SlideForm'
+import PopUp from './components/PopUp'
 // import Hero from './pages/Hero'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    {/* <PopUp/> */}
     <SlideForm/>
     {/* <Hero/> */}
     {/* <Timer/> */}
