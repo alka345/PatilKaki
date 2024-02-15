@@ -2,8 +2,8 @@ import React from 'react'
 
 function CTA() {
   return (
-    <div className='grid grid-cols-2 h-screen w-screen text-white justify-center items-center '>
-      <div className=' flex flex-col justify-center items-center border rounded-lg bg-slate-700 p-10 ml-10'>
+    <div className='grid grid-cols-2 h-screen w-screen bg-[#708090]  text-white justify-center items-center '>
+      <div className=' flex flex-col justify-center items-center border rounded-lg  bg-[#36454f] p-10 ml-10'>
         <h1 className='  text-xl'>Crash course Launch Offer(Save INR 1799)</h1>
         <p className='mt-8'>
           <ul >
@@ -13,7 +13,7 @@ function CTA() {
           </ul>
         </p>
       </div>
-      <div className=' border rounded-lg bg-slate-700 p-10 flex flex-col mr-10' >
+      <div className=' border rounded-lg p-10 flex flex-col mr-10 bg-[#36454f]' >
         <p>Price of the Program</p>
         <h1 className='font-bold text-4xl'>$499 <span className='line-through font-normal text-sm'>$1999</span></h1>
         <button className='bg-[#fcd12a] py-3 px-1
